@@ -1,12 +1,6 @@
-nav {
-    border-bottom: 1px solid gray;
-}
+
 .nav-item {
     margin-left: 20px;
-}
-.container-fluid {
-    padding-left: 40px;
-    padding-right: 40px;
 }
 .nav-link {
     transition: 0.2s;
@@ -22,4 +16,18 @@ a {
 }
 .bi1:hover {
     border-bottom: 3px solid rgb(255, 0, 0);
+}
+.text-column {
+    text-align: justify;
+} 
+.header1 {
+   padding-top: 180px;
+}
+.btn {
+    border: 2px solid gray;
+    padding: 10px 30px 10px 30px;
+}
+.row {
+    border-top: 1px gray solid;
+    height: 700px;
 }
