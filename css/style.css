@@ -1,0 +1,25 @@
+nav {
+    border-bottom: 1px solid gray;
+}
+.nav-item {
+    margin-left: 20px;
+}
+.container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-link {
+    transition: 0.2s;
+}
+.nav-link:hover {
+    border-bottom: 3px solid rgb(255, 0, 0);
+}
+.bi1 {
+    transition: 0.2s;
+}
+a {
+   color: black; 
+}
+.bi1:hover {
+    border-bottom: 3px solid rgb(255, 0, 0);
+}
