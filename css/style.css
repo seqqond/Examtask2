@@ -122,6 +122,30 @@ a {
         height: 800px !important;
         border-bottom: 1px solid gray;
     }
+    .column5 {
+        border-bottom: 1px solid gray;
+    }
+    .column6 {
+        border-bottom: 1px solid gray !important;
+    }
+}
+@media (max-width: 768px) {
+    .column1 {
+        border-right: 1px solid gray;
+    }
+    .column2 {
+        border-right: none !important;
+        border-left: none !important;
+    }
+    .column3 {
+        border-right: 1px solid gray;
+    }
+    .column4 {
+        border-bottom: 1px solid gray;
+    }
+    .column5 {
+        border-left: none !important;
+    }
 }
 .second-img {
     position: relative;
@@ -235,4 +259,9 @@ a {
 }
 .carousel-inner img {
     height: 400px;
+}
+input[type="submit"] {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
 }
